@@ -9,5 +9,5 @@ def hello():
     return "Hello there"
 
 if __name__ == '__main__':
-    app.run(host="localhost")
+    app.run(host="localhost", debug=True)
 
